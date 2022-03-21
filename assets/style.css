@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.search {
+    display: flex;
+}
+
+.search_field {
+    width: 200px;
+    height: 25px;
+    padding: 8px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #007BFF;
+}
+
+.search_data {
+    margin-left: -20px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 14.3px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+}
+
+.refresh_data {
+    font-size: 14px;
+    background-color: #343A40;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.create_data {
+    font-size: 14px;
+    background-color: #28A745;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #ccc;
+    padding: 20px !important;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #efefef;
+}
+
+tr:hover {
+    background: #d1d1d1;
+}
+
+.card {
+    width: 80%;
+    padding: 30px;
+    background: #F9F9F9;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.back {
+    font-size: 14px;
+    background-color: #343A40;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+}
+
+b {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.female {
+    margin-left: 30px;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 8px;
+}
+
+.simpan {
+    width: 100%;
+    padding: 15px;
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
